@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>汉罗塔游戏</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="game">
+    <div class="tip">
+      <p class="tip-p success">移动了 <span class="tip-span">0</span> 次</p> 
+    </div>
+    <div class="columns">
+      <div class="item c1"></div>
+      <div class="item c2"></div>
+      <div class="item c3"></div>
+    </div>
+    <div class="btns">
+      <div class="btn-item">
+        <div class="btn-left " data-form="1" data-to="3">左</div>
+        <div class="btn-right" data-form="1" data-to="2">右</div>
+      </div>
+      <div class="btn-item">
+        <div class="btn-left" data-form="2" data-to="1">左</div>
+        <div class="btn-right" data-form="2" data-to="3">右</div>
+      </div>
+      <div class="btn-item">
+        <div class="btn-left" data-form="3" data-to="2">左</div>
+        <div class="btn-right" data-form="3" data-to="1">右</div>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
